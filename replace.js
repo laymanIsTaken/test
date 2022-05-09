@@ -77,6 +77,7 @@ r.replace = function(answers) {
     answers = answers.replace(/晖红/g, "蹿红");
     answers = answers.replace(/蹄红/g, "蹿红");
     answers = answers.replace(/带色/g, "橙色");
+    answers = answers.replace(/周算经/g, "周髀算经");
     return answers
 };
 
