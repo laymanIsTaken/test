@@ -79,6 +79,7 @@ r.replace = function(answers) {
     answers = answers.replace(/带色/g, "橙色");
     answers = answers.replace(/周算经/g, "周髀算经");
     answers = answers.replace(/有侍无恐/g, "有恃无恐");
+    answers = answers.replace(/消甄/g, "消弭");
     return answers
 };
 
