@@ -81,6 +81,7 @@ r.replace = function(answers) {
     answers = answers.replace(/有侍无恐/g, "有恃无恐");
     answers = answers.replace(/消甄/g, "消弭");
     answers = answers.replace(/蹲浑水/g, "蹚浑水");
+    answers = answers.replace(/忆气/g, "怄气");
     return answers
 };
 
