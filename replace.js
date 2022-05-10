@@ -82,6 +82,7 @@ r.replace = function(answers) {
     answers = answers.replace(/消甄/g, "消弭");
     answers = answers.replace(/蹲浑水/g, "蹚浑水");
     answers = answers.replace(/忆气/g, "怄气");
+    answers = answers.replace(/游猴/g, "猕猴");
     return answers
 };
 
