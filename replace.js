@@ -80,6 +80,7 @@ r.replace = function(answers) {
     answers = answers.replace(/周算经/g, "周髀算经");
     answers = answers.replace(/有侍无恐/g, "有恃无恐");
     answers = answers.replace(/消甄/g, "消弭");
+    answers = answers.replace(/蹲浑水/g, "蹚浑水");
     return answers
 };
 
