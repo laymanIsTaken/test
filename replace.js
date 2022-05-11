@@ -83,6 +83,7 @@ r.replace = function(answers) {
     answers = answers.replace(/蹲浑水/g, "蹚浑水");
     answers = answers.replace(/忆气/g, "怄气");
     answers = answers.replace(/游猴/g, "猕猴");
+    answers = answers.replace(/储懒/g, "慵懒");
     return answers
 };
 
