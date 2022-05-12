@@ -84,6 +84,7 @@ r.replace = function(answers) {
     answers = answers.replace(/忆气/g, "怄气");
     answers = answers.replace(/游猴/g, "猕猴");
     answers = answers.replace(/储懒/g, "慵懒");
+    answers = answers.replace(/朱械/g, "朱棣");
     return answers
 };
 
