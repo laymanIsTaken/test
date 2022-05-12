@@ -13,6 +13,7 @@ r.replace = function(answers) {
     if(answers.indexOf('阀值')!=-1) answers = answers.replace(/闸值/g, "阈值");
     if(answers.indexOf('阮籍')!=-1) answers = answers.replace(/刘部/g, "刘勰");
     if(answers.indexOf('钠')!=-1&&answers.indexOf('镁')!=-1) answers = answers.replace(/澳/g, "碘");
+    if(answers.indexOf('巨擎')!=-1) answers = answers.replace(/巨壁/g, "巨擘");
     answers = answers.replace(/嘎岭/g, "嘌呤");
     answers = answers.replace(/此呢风云/g, "叱咤风云");
     answers = answers.replace(/溶炼/g, "淬炼");
