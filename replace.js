@@ -12,6 +12,7 @@ r.replace = function(answers) {
     if(answers.indexOf('黄海')!=-1&&answers.indexOf('潮海')!=-1) answers = answers.replace(/潮海/g, "渤海");
     if(answers.indexOf('阀值')!=-1) answers = answers.replace(/闸值/g, "阈值");
     if(answers.indexOf('阮籍')!=-1) answers = answers.replace(/刘部/g, "刘勰");
+    if(answers.indexOf('阮籍')!=-1) answers = answers.replace(/刘魏/g, "刘勰");
     if(answers.indexOf('钠')!=-1&&answers.indexOf('镁')!=-1) answers = answers.replace(/澳/g, "碘");
     if(answers.indexOf('巨擎')!=-1) answers = answers.replace(/巨壁/g, "巨擘");
     if(answers.indexOf('甲')!=-1&&answers.indexOf('丙')!=-1) answers = answers.replace(/Z/g, "乙");
