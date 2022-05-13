@@ -93,6 +93,7 @@ r.replace = function(answers) {
     answers = answers.replace(/朱械/g, "朱棣");
     answers = answers.replace(/斤之以鼻/g, "XXXX");
     answers = answers.replace(/追不/g, "迫不");
+    answers = answers.replace(/姓款/g, "赃款");
     return answers
 };
 
