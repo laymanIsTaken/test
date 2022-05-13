@@ -92,6 +92,7 @@ r.replace = function(answers) {
     answers = answers.replace(/储懒/g, "慵懒");
     answers = answers.replace(/朱械/g, "朱棣");
     answers = answers.replace(/斤之以鼻/g, "XXXX");
+    answers = answers.replace(/追不/g, "迫不");
     return answers
 };
 
