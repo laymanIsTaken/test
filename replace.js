@@ -94,6 +94,7 @@ r.replace = function(answers) {
     answers = answers.replace(/斤之以鼻/g, "XXXX");
     answers = answers.replace(/追不/g, "迫不");
     answers = answers.replace(/姓款/g, "赃款");
+    answers = answers.replace(/货市月/g, "货币月");
     return answers
 };
 
