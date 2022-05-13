@@ -95,6 +95,7 @@ r.replace = function(answers) {
     answers = answers.replace(/追不/g, "迫不");
     answers = answers.replace(/姓款/g, "赃款");
     answers = answers.replace(/货市月/g, "货币月");
+    answers = answers.replace(/质品/g, "赝品");
     return answers
 };
 
